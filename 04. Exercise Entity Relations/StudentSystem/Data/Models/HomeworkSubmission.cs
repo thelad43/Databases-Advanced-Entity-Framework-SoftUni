@@ -1,0 +1,24 @@
+﻿namespace StudentSystem.Data.Models
+{
+    using Enums;
+    using System;
+
+    public class HomeworkSubmission
+    {
+        public int Id { get; set; }
+
+        public string Content { get; set; }
+
+        public ContentType ContentType { get; set; }
+
+        public DateTime SubmissionTime { get; set; }
+
+        public int StudentId { get; set; }
+
+        public Student Student { get; set; }
+
+        public int CourseId { get; set; }
+
+        public Course Course { get; set; }
+    }
+}

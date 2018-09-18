@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20180816135340_ManagersTable.cs" />
+    <Compile Remove="Migrations\20180816140014_ManagerColumn.cs" />
+    <Compile Remove="Migrations\20180816140532_ManagerColumn.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Automapper.Extensions.Microsoft.DependencyInjection" Version="5.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Employees.Common\Employees.Common.csproj" />
+  </ItemGroup>
+
+</Project>

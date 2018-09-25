@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<albums>
+  <album name="OK Computer" artist="Radiohead" year="1997" producer="Nigel Godrich" price="24.99">
+    <song title="Airbag" length="4:44"/>
+    <song title="Paranoid Android" length="6:23"/>
+    <song title="Subterranean Homesick Alien" length="4:27"/>
+    <song title="Exit Music (For a Film)" length="5:45"/>
+    <song title="Let Down" length="3:29"/>
+    <song title="Karma Police" length="4:21"/>
+    <song title="Fitter Happier" length="1:57"/>
+    <song title="Electioneering" length="3:50"/>
+    <song title="Climbing Up the Walls" length="3:13"/>
+    <song title="No Surprises" length="3:48"/>
+    <song title="Lucky" length="4:19"/>
+    <song title="The Tourist" length="5:24"/>
+  </album>
+  <album name="The King of Limbs" artist="Radiohead" year="2011" producer="Nigel Godrich" price="14.99">
+    <song title="Bloom" length="5:15"/>
+    <song title="Morning Mr Magpie" length="4:51"/>
+    <song title="Little by Little" length="4:37"/>
+    <song title="Feral" length="3:13"/>
+    <song title="Lotus Flower" length="3:21"/>
+    <song title="Codex" length="4:47"/>
+    <song title="Give Up the Ghost" length="2:30"/>
+    <song title="Separator" length="4:20"/>
+  </album>
+</albums>

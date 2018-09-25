@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<students>
+    <student>
+        <name>Pesho Ivanov</name>
+        <gender>Male</gender>
+        <birthDate>1987/10/13</birthDate>
+        <email>pesho.ivanov@test.com</email>
+        <university>Software University</university>
+        <specialty>C# Web Developer</specialty>
+        <facultyNumber>1112223334</facultyNumber>
+        <exams>
+            <exam>
+                <name>Programming Basics</name>
+                <dateTaken>2016/02/02</dateTaken>
+                <grade>6.0</grade>
+            </exam>
+            <exam>
+                <name>Programming Fundamentals</name>
+                <dateTaken>2017/05/12</dateTaken>
+                <grade>4.77</grade>
+            </exam>
+            <exam>
+                <name>C# Advanced</name>
+                <dateTaken>2018/07/06</dateTaken>
+                <grade>5.26</grade>
+            </exam>
+        </exams>
+    </student>
+</students>
